@@ -10,8 +10,8 @@ set t_Co=256
 let g:colors_name = "hsark"
 
 " General colors
-hi Normal guifg=#2DE872 guibg=NONE guisp=NONE gui=NONE ctermfg=119 ctermbg=NONE cterm=NONE
-hi StatusLine guifg=#2DE872 guibg=#080808 guisp=#080808 gui=NONE ctermfg=119 ctermbg=NONE cterm=NONE
+hi Normal guifg=#bfffff guibg=NONE guisp=NONE gui=NONE ctermfg=119 ctermbg=NONE cterm=NONE
+hi StatusLine guifg=#2DE872 guibg=NONE guisp=#080808 gui=NONE ctermfg=119 ctermbg=NONE cterm=NONE
 hi StatusLineNC guifg=#2DE872 guibg=#080808 guisp=#080808 gui=NONE ctermfg=119 ctermbg=NONE cterm=NONE
 hi LineNr guifg=#6D6D6D guibg=NONE guisp=NONE gui=NONE ctermfg=244 ctermbg=NONE cterm=NONE
 
@@ -27,10 +27,10 @@ hi String guifg=#FFC600 guibg=NONE guisp=NONE gui=NONE ctermfg=214 ctermbg=NONE 
 
 " Functions and Keywords
 hi Function guifg=#0ff0ff guibg=NONE guisp=NONE gui=NONE ctermfg=205 ctermbg=NONE cterm=NONE
-hi Keyword guifg=#00ff40 guibg=NONE guisp=NONE gui=NONE ctermfg=205 ctermbg=NONE cterm=NONE
+hi Keyword guifg=#ff2d91 guibg=NONE guisp=NONE gui=NONE ctermfg=205 ctermbg=NONE cterm=NONE
 
 " Variables
-hi Identifier guifg=#FF8F40 guibg=NONE guisp=NONE gui=NONE ctermfg=209 ctermbg=NONE cterm=NONE
+hi Identifier guifg=#0fff00 guibg=NONE guisp=NONE gui=NONE ctermfg=209 ctermbg=NONE cterm=NONE
 
 " Operators
 hi Operator guifg=#FF8F40 guibg=NONE guisp=NONE gui=NONE ctermfg=209 ctermbg=NONE cterm=NONE
@@ -56,10 +56,10 @@ hi FoldColumn guifg=#525252 guibg=NONE guisp=NONE gui=NONE ctermfg=242 ctermbg=N
 hi SpecialKey guifg=#525252 guibg=NONE guisp=NONE gui=NONE ctermfg=242 ctermbg=NONE cterm=NONE
 
 " Additional Colors
-hi Constant guifg=#FFCA00 guibg=NONE guisp=NONE gui=NONE ctermfg=220 ctermbg=NONE cterm=NONE
+hi Constant guifg=#5a0fff guibg=NONE guisp=NONE gui=NONE ctermfg=220 ctermbg=NONE cterm=NONE
 hi Boolean guifg=#6BFF00 guibg=NONE guisp=NONE gui=NONE ctermfg=82 ctermbg=NONE cterm=NONE
 hi PreProc guifg=#A02DFF guibg=NONE guisp=NONE gui=NONE ctermfg=99 ctermbg=NONE cterm=NONE
-hi Type guifg=#FF8F00 guibg=NONE guisp=NONE gui=NONE ctermfg=208 ctermbg=NONE cterm=NONE
+hi Type guifg=#ff0faf guibg=NONE guisp=NONE gui=NONE ctermfg=208 ctermbg=NONE cterm=NONE
 hi SpecialChar guifg=#FFC600 guibg=NONE guisp=NONE gui=NONE ctermfg=214 ctermbg=NONE cterm=NONE
 hi Conditional guifg=#FF00B6 guibg=NONE guisp=NONE gui=NONE ctermfg=129 ctermbg=NONE cterm=NONE
 hi StorageClass guifg=#FF8F00 guibg=NONE guisp=NONE gui=NONE ctermfg=208 ctermbg=NONE cterm=NONE
@@ -68,6 +68,8 @@ hi Include guifg=#FF00B6 guibg=NONE guisp=NONE gui=NONE ctermfg=129 ctermbg=NONE
 
 " Transparent background
 hi Normal guibg=NONE guisp=NONE ctermbg=NONE
+hi SignColumn guibg=NONE " Make SignColumn background transparent
+
 
 " Disable underlining for StatusLine
 hi StatusLine gui=NONE cterm=NONE
