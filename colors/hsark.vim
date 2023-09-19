@@ -12,12 +12,8 @@ set t_Co=256
 let g:colors_name = "hsark"
 
 " General colors
-" Transparent background
-hi Normal guibg=NONE guisp=NONE ctermbg=NONE
-hi SignColumn guibg=NONE " Make SignColumn background transparent
-" Disable underlining for StatusLine
-hi StatusLine gui=NONE cterm=NONE
-hi Normal guifg=#eaffda guibg=NONE guisp=NONE gui=NONE ctermfg=119 ctermbg=NONE cterm=NONE
+hi SignColumn guibg=#000 
+hi Normal guifg=#eaffda guibg=#000000 guisp=#000000 gui=NONE ctermfg=189 ctermbg=NONE cterm=NONE
 hi StatusLineNC guifg=#056100 guibg=NONE guisp=#080808 gui=NONE ctermfg=119 ctermbg=NONE cterm=NONE
 hi LineNr guifg=#6D6D6D guibg=NONE guisp=NONE gui=NONE ctermfg=244 ctermbg=NONE cterm=NONE
 
@@ -44,7 +40,7 @@ hi Operator guifg=#FF8F40 guibg=NONE guisp=NONE gui=NONE ctermfg=209 ctermbg=NON
 
 " Search and Visual
 hi Search guifg=#080808 guibg=#FFC600 guisp=#FFC600 gui=NONE ctermfg=NONE ctermbg=214 cterm=NONE
-hi Visual guifg=#ffffff guibg=#FF2D91 guisp=#FF2D91 gui=NONE ctermfg=NONE ctermbg=205 cterm=NONE
+hi Visual guifg=#000000 guibg=#00ff00 guisp=#00ff00 gui=NONE ctermfg=NONE ctermbg=205 cterm=NONE
 
 " Special
 hi Error guifg=#FF2D91 guibg=NONE guisp=NONE gui=NONE ctermfg=205 ctermbg=NONE cterm=NONE
